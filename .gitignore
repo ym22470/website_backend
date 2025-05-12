@@ -1,0 +1,56 @@
+# IntelliJ / WebStorm / PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Java/Maven/Gradle
+/target/
+/build/
+/out/
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+# Gradle wrapper
+.gradle/
+/!gradle/wrapper/gradle-wrapper.jar
+
+# Node / npm / Yarn
+node_modules/
+dist/
+build/
+
+# lock files (optional to ignore)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs and environment
+*.log
+*.env
+.env.*       # .env.local, .env.production, etc.
+.envrc
+*.local
+*.swp
+
+# JetBrains run/debug configs
+*.iws
+.idea/
+
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+
